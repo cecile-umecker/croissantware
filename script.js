@@ -4,7 +4,7 @@ const ctx = canvas.getContext('2d');
 canvas.height = window.innerHeight;
 canvas.width = window.innerWidth;
 
-const chars = "アァイィウウェエェオカガキギクグケゲコゴサザシジスズセゼソゾタダチッヂツヅテデトドナニヌネノABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+const chars = "01";
 const charArray = chars.split("");
 const fontSize = 14;
 const columns = Math.floor(canvas.width / fontSize);
