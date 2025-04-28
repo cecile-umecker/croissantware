@@ -14,15 +14,17 @@ let croissantMode = false;
 
 // Ta forme de croissant très simple pour commencer
 const croissantShape = [
-  "         111         ",
-  "       1111111       ",
-  "     11111111111     ",
-  "    1111111111111    ",
-  "   111111111111111   ",
-  "    1111111111111    ",
-  "     11111111111     ",
-  "       1111111       ",
-  "         111         "
+  "   11111             ",
+  "     111111          ",
+  "      11111 1        ",
+  "      11     11      ",
+  "     1 1111111111    ",
+  "    11111111111111   ",
+  "     1 1111111111    ",
+  "      11     11      ",
+  "      11111 1        ",
+  "     1111111         ",
+  "   11111             "
 ];
 
 // Stockage des lettres figées dans la zone du croissant
