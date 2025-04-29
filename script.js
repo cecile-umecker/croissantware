@@ -119,6 +119,6 @@ window.addEventListener('resize', () => {
 });
 
 setTimeout(() => {
-  const msg = document.getElementById('message');
-  msg.style.opacity = 1;
+  document.getElementById('message').style.opacity = 1;
 }, 6000);
+
