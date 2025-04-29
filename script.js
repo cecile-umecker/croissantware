@@ -117,3 +117,8 @@ window.addEventListener('resize', () => {
   canvas.height = window.innerHeight;
   initFrozenLetters(); // Important pour resize propre
 });
+
+setTimeout(() => {
+  const msg = document.getElementById('message');
+  msg.style.opacity = 1;
+}, 6000);
