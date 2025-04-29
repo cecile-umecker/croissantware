@@ -10,3 +10,18 @@ body, html {
 #matrix {
   display: block;
 }
+
+#message {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #0F0;
+  font-family: 'Courier New', monospace;
+  font-size: 1.5em;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 2s ease-in;
+  white-space: pre-wrap;
+  pointer-events: none;
+}
